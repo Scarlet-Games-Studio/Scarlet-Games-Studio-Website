@@ -1,0 +1,153 @@
+/project-root
+│
+├── /assets               # Para armazenar todos os recursos
+│   ├── /images           # Imagens e ícones
+│   ├── /fonts            # Fontes personalizadas
+│   └── /videos           # Vídeos, caso utilize
+│
+├── /css                  # Arquivos CSS
+│   └── styles.css        # Arquivo CSS principal
+│
+├── /js                   # Arquivos JavaScript
+│   └── main.js           # Script principal
+│
+├── /components           # HTML/JS/CSS reutilizáveis
+│   └── header.html       # Exemplos de componentes
+│
+├── /vendor               # Bibliotecas de terceiros (Ex: Bootstrap, jQuery)
+│   └── bootstrap.min.css
+│
+├── index.html            # Página inicial
+└── README.md             # Instruções e detalhes do projeto
+
+projeto/
+├── public/
+│   ├── index.html
+│   ├── css/
+│   │   ├── styles.css
+│   │   ├── responsive.css
+│   │   ├── animations.css
+│   │   └── ...
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── vendor.js
+│   │   ├── plugins.js
+│   │   └── ...
+│   ├── img/
+│   │   ├── icons/
+│   │   ├── images/
+│   │   ├── backgrounds/
+│   │   └── ...
+│   ├── videos/
+│   │   ├── intro.mp4
+│   │   ├── tutorial.mp4
+│   │   └── ...
+│   ├── fonts/
+│   │   ├── open-sans/
+│   │   ├── montserrat/
+│   │   └── ...
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── header/
+│   │   │   ├── index.js
+│   │   │   ├── header.html
+│   │   │   ├── header.css
+│   │   │   └── header.spec.js (teste unitário)
+│   │   ├── footer/
+│   │   │   ├── index.js
+│   │   │   ├── footer.html
+│   │   │   ├── footer.css
+│   │   │   └── footer.spec.js (teste unitário)
+│   │   ├── navbar/
+│   │   │   ├── index.js
+│   │   │   ├── navbar.html
+│   │   │   ├── navbar.css
+│   │   │   └── navbar.spec.js (teste unitário)
+│   │   └── ...
+│   ├── pages/
+│   │   ├── index/
+│   │   │   ├── index.js
+│   │   │   ├── index.html
+│   │   │   ├── index.css
+│   │   │   └── index.spec.js (teste unitário)
+│   │   ├── about/
+│   │   │   ├── index.js
+│   │   │   ├── about.html
+│   │   │   ├── about.css
+│   │   │   └── about.spec.js (teste unitário)
+│   │   ├── contact/
+│   │   │   ├── index.js
+│   │   │   ├── contact.html
+│   │   │   ├── contact.css
+│   │   │   └── contact.spec.js (teste unitário)
+│   │   └── ...
+│   ├── utils/
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   │   ├── validations.js
+│   │   └── ...
+│   ├── services/
+│   │   ├── api.service.js
+│   │   ├── auth.service.js
+│   │   ├── storage.service.js
+│   │   └── ...
+│   ├── models/
+│   │   ├── user.model.js
+│   │   ├── product.model.js
+│   │   ├── order.model.js
+│   │   └── ...
+│   ├── store/
+│   │   ├── index.js
+│   │   ├── reducers.js
+│   │   ├── actions.js
+│   │   └── ...
+│   └── ...
+├── assets/
+│   ├── fonts/
+│   │   ├── open-sans/
+│   │   ├── montserrat/
+│   │   └── ...
+│   ├── images/
+│   │   ├── icons/
+│   │   ├── images/
+│   │   ├── backgrounds/
+│   │   └── ...
+│   ├── videos/
+│   │   ├── intro.mp4
+│   │   ├── tutorial.mp4
+│   │   └── ...
+│   └── ...
+├── config/
+│   ├── env.js
+│   ├── settings.js
+│   ├── database.js
+│   └── ...
+├── tests/
+│   ├── unit/
+│   │   ├── tests.js
+│   │   └── ...
+│   ├── integration/
+│   │   ├── tests.js
+│   │   └── ...
+│   ├── e2e/
+│   │   ├── tests.js
+│   │   └── ...
+│   └── ...
+├── scripts/
+│   ├── build.js
+│   ├── deploy.js
+│   ├── start.js
+│   └── ...
+├── logs/
+│   └── ...
+├── tmp/
+│   └── ...
+├── vendor/
+│   └── ...
+├── node_modules/
+│   └── ...
+├── gulpfile.js (ou webpack.config.js)
+├── eslintrc.js (ou .editorconfig)
+├── package.json
+└── README.md
