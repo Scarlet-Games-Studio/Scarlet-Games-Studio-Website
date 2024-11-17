@@ -1,0 +1,232 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin: 20px;*/
+}
+
+/*
+.i2 {
+  padding-right: 16px;
+}
+*/
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  /* Bordas arredondadas */
+  width: auto;
+  height: 30px;
+  padding: 0px 10px;
+  background-color: #ffffff00;
+  /* Cor de fundo branca */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Sombra leve */
+}
+
+.search-input {
+  border: none;
+  /* Remove a borda padrão */
+  outline: none;
+  /* Remove o contorno padrão */
+  background-color: #ffffff00;
+  /* Cor de fundo branca */
+  color: white;
+  /* Cor do texto digitado */
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 50px;
+  /* Mantém as bordas arredondadas */
+}
+
+.search-input::placeholder {
+  color: #ffffff;
+  /* Altere para a cor desejada */
+  font-weight: bold;
+  /* Define o texto do placeholder como negrito */
+  opacity: 1;
+  /* Garante que a cor seja aplicada de forma completa */
+}
+
+.button {
+  color: black;
+  background-color: #ff4655;
+  width: 100px;
+  height: 39px;
+  border-radius: 40px;
+  padding: 7px 2px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 6px;
+  cursor: pointer;
+}
+
+.search-button {
+  background-color: transparent;
+  /* Remove a cor de fundo do botão */
+  border: none;
+  /* Remove a borda do botão */
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button .icon svg {
+  fill: #333;
+  /* Cor do ícone de pesquisa */
+  transition: fill 0.3s;
+  /* Transição suave para o hover */
+}
+
+.search-button:hover .icon svg {
+  fill: #ff4655;
+  /* Cor do ícone ao passar o mouse */
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  /*background-color: rgb(145, 145, 145);*/ 
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: transparent 1px solid;
+}
+
+
+.header.scrolled {
+  background-color: #000;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(90deg, #ff4655, #ffda65, #00ff95, #00aeff, #ff4655) 1;
+  /* Gradiente aplicado à borda */
+  animation: borderAnimation 3s infinite alternate;
+  /* Animação que alterna as cores */
+}
+
+/* Animação keyframes */
+@keyframes borderAnimation {
+  0% {
+    border-image: linear-gradient(90deg, #ff4655, #ffda65, #00ff95, #00aeff, #ff4655) 1;
+  }
+
+  50% {
+    border-image: linear-gradient(90deg, #ffda65, #00ff95, #00aeff, #ff4655, #ffda65) 1;
+  }
+
+  100% {
+    border-image: linear-gradient(90deg, #00ff95, #00aeff, #ff4655, #ffda65, #00ff95) 1;
+  }
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+}
+
+.header-center ul li {
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.header-center ul {
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 50px;
+}
+
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*position: absolute;
+    top: 10px;
+    /*right: -250px; */
+}
+
+/* Estilo para o container do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.dropdown:hover {
+  color: #a1a1a1;
+}
+
+/* Ocultar o submenu inicialmente */
+.dropdown .submenu-game-info {
+  border-top: solid 4px red;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  width: 220px;
+  border-radius: 4px;
+  padding: 10px 0;
+  z-index: 999;
+}
+
+/* Estilos para os itens do submenu */
+.submenu-item {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.submenu-link {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submenu-link:hover {
+  background-color: #f5f5f5;
+  color: #e60000;
+}
+
+/* Exibir o submenu ao passar o mouse no dropdown */
+.dropdown:hover .submenu-game-info {
+  display: block;
+}
+
+/* Linha sublinhada */
+.submenu-underline {
+  top: 0;
+  height: 4px;
+  width: 100%;
+  background-color: rgb(209, 54, 57);
+  border-radius: 2px 2px 0 0;
+}
+
+.submenu-info {
+  display: none;
+}

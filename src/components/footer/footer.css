@@ -1,0 +1,274 @@
+@media screen and (min-width:80px) and (max-width: 720px) {
+
+.fot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+.fot p {
+    text-align: center;
+}
+
+.top-fot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     /* Alinha verticalmente */
+    border-bottom: solid 1px gray;
+    padding: 15px 0;
+}
+
+.bot-fot {
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.padd-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+
+.desc-fot{
+    display: flex;
+}
+.i-scarlet{
+    color: white;
+    width: auto;
+    align-items: center;
+    height: 70px; 
+}
+i.fa-size{
+    font-size: 24px;  /* Ajusta o tamanho */
+}
+i.fa-facebook {
+    
+    color: #ffffff;   /* Define a cor padrão do Facebook */
+  }
+i.fa-facebook:hover {
+   
+    color: #3b5998;   /* Define a cor padrão do Facebook */
+  }
+  i.fa-x-twitter {
+  
+    color: #ffffff; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-x-twitter:hover {
+   
+    color: #4d4d4d; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-instagram {
+   
+    color: #ffffff; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-instagram:hover {
+   
+    color: #e1306c; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-linkedin {
+   
+    color: #ffffff; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-linkedin:hover {
+   
+    color: #0077b5; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-youtube {
+   
+    color: #ffffff; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-youtube:hover {
+   
+    color: #ff0000; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-tiktok {
+   
+    color: #ffffff; /* Cor preta para simular a marca "X" */
+  }
+  i.fa-tiktok:hover {
+   
+    color: #fd4781; /* Cor preta para simular a marca "X" */
+  }
+
+  .separator-white {
+    margin: 0 15px;
+    width: 1px;
+    /* Largura da linha */
+    height: 20px;
+    /* Altura da linha */
+    background-color: #ffffff;
+    /* Cor da linha */
+}
+.separator {
+  height: 1px;
+  background: rgba(196, 196, 196, 0.747); /* Cor bem clara para o stroke */
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(131, 131, 131, 0.801); /* Um leve efeito de profundidade */
+  margin: 10px 0;
+}
+.social-list{
+  display: flex;
+  list-style: none;
+}
+.fot-social-list{
+  display: flex;
+  list-style: none;
+  margin: 10px 10px;
+}
+.fot-list{
+  list-style: none;
+}
+.fot-content-list{
+  margin: 10px 10px;
+}
+
+}
+
+@media screen and (min-width:1400px) and (max-width: 2000px) {
+
+  .fot {
+      width: calc(100% - 80px);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 10px 40px;
+      overflow: hidden;
+  }
+  
+  .fot p {
+      text-align: center;
+  }
+  
+  .top-fot {
+      display: flex;
+      
+      justify-content: space-between;
+      align-items: center;     /* Alinha verticalmente */
+      border-bottom: solid 1px gray;
+      padding: 15px 0;
+  }
+  
+  .bot-fot {
+      padding: 15px 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  .padd-footer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 50px;
+  }
+  
+  .desc-fot{
+      display: flex;
+  }
+  .i-scarlet{
+      color: white;
+      width: auto;
+      align-items: center;
+      height: 40px; 
+  }
+  i.fa-size{
+      font-size: 24px;  /* Ajusta o tamanho */
+  }
+  i.fa-facebook {
+      
+      color: #ffffff;   /* Define a cor padrão do Facebook */
+    }
+  i.fa-facebook:hover {
+     
+      color: #3b5998;   /* Define a cor padrão do Facebook */
+    }
+    i.fa-x-twitter {
+    
+      color: #ffffff; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-x-twitter:hover {
+     
+      color: #4d4d4d; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-instagram {
+     
+      color: #ffffff; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-instagram:hover {
+     
+      color: #e1306c; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-linkedin {
+     
+      color: #ffffff; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-linkedin:hover {
+     
+      color: #0077b5; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-youtube {
+     
+      color: #ffffff; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-youtube:hover {
+     
+      color: #ff0000; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-tiktok {
+     
+      color: #ffffff; /* Cor preta para simular a marca "X" */
+    }
+    i.fa-tiktok:hover {
+     
+      color: #fd4781; /* Cor preta para simular a marca "X" */
+    }
+  
+    .separator-white {
+      margin: 0 15px;
+      width: 1px;
+      /* Largura da linha */
+      height: 20px;
+      /* Altura da linha */
+      background-color: #ffffff;
+      /* Cor da linha */
+  }
+
+  
+.social-list{
+  display: flex;
+  list-style: none;
+}
+.fot-social-list{
+  display: flex;
+  list-style: none;
+  margin: 10px 10px;
+}
+.fot-list{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+  list-style: none;
+}
+.fot-content-list{
+  margin: 10px 10px;
+}
+  
+  }

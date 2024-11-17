@@ -1,0 +1,1190 @@
+@media screen and (min-width:80px) and (max-width: 720px) {
+    .section2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1275px;
+        /*border-top: 2px solid red;*/
+        /*background: radial-gradient(circle, rgba(172, 84, 47, 1) 0%, rgba(41, 19, 10, 1) 1%, rgba(2, 0, 36, 1) 100%);
+        */
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .relative-for-bg {
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    
+    .bg-tentativa {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background: url(image/bg-section-two.png);
+    
+        z-index: 200;
+    }
+    
+    
+    
+    
+    .redes-sectwo {
+        border-bottom: red solid 13px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 200px;
+        width: calc(50% - 200px * 2);
+        height: 85px;
+        background: linear-gradient(90deg, #ff4655, #ff4655, #ff4655);
+    }
+    
+    .social-icon {
+        position: relative;
+        color: #ffffff;
+        transition: color 0.3s ease;
+        text-decoration: none;
+        /* Remove o sublinhado padrão */
+        padding: 0 30px;
+        font-size: 50px;
+        cursor: pointer;
+    
+        animation: moveIcons 15s linear infinite;
+        transition: color 0.3s ease, font-size 0.3s ease;
+    }
+    
+    .social-icon:hover {
+        color: #000000;
+    }
+    
+    .social-icons-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        animation: scroll 10s linear infinite;
+    }
+    
+    .widget {
+        width: 100%;
+    }
+    
+    .widget-spacing-vertical {
+        padding: 20px 0px;
+    }
+    
+    .widget-spacing-horizontal {
+        padding: 0px 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+    .button1 {
+        /*position: absolute; */
+        border: 2px solid red;
+        color: white;
+        background-color: red;
+        /*margin: -211px 537px; */
+        padding: 15px 2px;
+        width: 15%;
+        cursor: pointer;
+        font-family: "FF Mark W05", Arial, sans-serif;
+    }
+    
+    
+    .button1:hover {
+        background-color: transparent;
+        font-weight: bold;
+        animation-name: deepu;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    .div-title-news {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    
+    .div-title-news h2 {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .button-standard {
+        transition: all 0.5s ease-in-out;
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+        text-decoration: none;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgba(41, 41, 41, 0.473);
+    }
+    
+    .button-vertudo {
+        transition: all 0.5s ease-in-out;
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px ;
+        margin-top: 25px;
+        background-color: rgba(41, 41, 41, 0.473);
+    }
+    
+    .button-standard:hover,
+    .button-standard:focus {
+        background-color: rgba(24, 24, 24, 0.548);
+        text-decoration: none;
+        /* Remove qualquer decoração como sublinhado ao passar o mouse ou focar */
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+    }
+    
+    .button-standard span {
+        font-size: 22px;
+        color: white;
+    }
+    
+    .wrapper-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        /* background-color: #ccc; */
+    }
+    
+    .wrapper-link {
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        /*overflow: hidden; */
+        margin-right: 24px;
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(44, 44, 44); */
+    
+    
+    }
+    
+    .responsive-media img {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+        /* Adiciona uma transição suave */
+    }
+    
+    .responsive-media:hover img {
+        transform: scale(1.2);
+        /* Aumenta o tamanho da imagem em 10% */
+    }
+    
+    .wrapper-responsive:hover {
+        transform: translateY(-10px);
+        /* Move a div pai 10px para cima */
+    }
+    
+    .article-li:hover {
+        transform: translateY(-10px);
+        /* Move a div pai 10px para cima */
+    }
+    
+    .responsive-media:hover img {
+        transform: scale(1.2);
+        /* Aumenta a imagem em 10% */
+    }
+    
+    .wrapper-responsive {
+        transition: transform 0.3s ease;
+        width: 100%;
+        border-radius: 25px;
+        overflow: hidden;
+        height: 200px;
+    
+    }
+    
+    
+    .guia-content {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 0px;
+        height: 82px;
+        
+        width: 100%;
+        font-size: 25px;
+    }
+    
+    .guia-content h3 {
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+    
+    .category-wrapper {
+        align-items: center;
+        display: flex;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: 32px;
+    }
+    
+    .game-badge-scarlet {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .icon {
+        width: 17px;
+        height: 14px;
+    }
+    
+    .category-img {
+        background-color: #000000b2;
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        /* Alinha horizontalmente ao centro */
+        align-items: center;
+        /* Alinha verticalmente ao centro */
+        height: 30px;
+        width: 30px;
+    }
+    
+    .category-img img {
+        top: 25px;
+    }
+    
+    .category-news a {
+        font-size: 17px;
+    }
+    
+    
+    .articles {
+        /* Styles for the list of articles */
+        width: 100%;
+        height: 920px;
+        /* Adjust height as needed */
+        display: flex;
+        /* Or any desired layout */
+        flex-direction: column;
+        /* Stack items vertically */
+    }
+    
+    .article-li {
+    
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        /* Styles for each article list item */
+        /* Adjust width and height as needed */
+    }
+    
+    .article-card {
+        background-color: #555555a2;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        height: auto;
+        /* Styles for the article card */
+        width: 100%;
+        /* Or adjust based on layout */
+        text-decoration: none;
+        margin: 10px;
+        /* Remove underline from links */
+        color: inherit;
+        /* Inherit text color from parent */
+    }
+    
+    .article-title-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 280px;
+        padding: 16px 0;
+        padding-right: 8px;
+        padding-left: 26px;
+        /* Styles for the title and category area */
+        padding: 16px;
+        /* Adjust padding as needed */
+    }
+    
+    .article-title-wrapper h3 {
+        /* Styles for the article title */
+        margin: 0;
+        /* Remove default margin */
+    }
+    
+    .category-wrapper {
+        /* Styles for the category section */
+        display: flex;
+        align-items: center;
+        /* Align content vertically */
+    }
+    
+    .category-wrapper span {
+        /* Styles for the category icon (if using Font Awesome) */
+        /* You might need to adjust styles based on your icons */
+    }
+    
+    .category-wrapper div {
+        /* Styles for the category text */
+        margin-left: 5px;
+        /* Adjust spacing as needed */
+    }
+    
+    .article-image {
+        overflow: hidden;
+        border-radius: 25px;
+        position: absolute;
+        width: 55%;
+        right: 0px;
+        /* Ajusta a largura da div */
+        height: 100%;
+        /* Ajusta a altura da div */
+    }
+    
+    .article-image img {
+        position: absolute;
+        /* Posiciona a imagem dentro da div */
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Faz a imagem ocupar toda a largura da div */
+        height: 100%;
+        /* Faz a imagem ocupar toda a altura da div */
+        object-fit: cover;
+        /* Cobre a área da div, mantendo a proporção da imagem */
+    }
+    
+    .button-100w {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .trapezoid-button {
+        /*border: 2px solid red;*/
+    
+        /* Sombra esfumaçada abaixo do botão */
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        width: 200px;
+        height: 60px;
+        background-color: #ce3939;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        position: relative;
+        clip-path: polygon(0% 0%, 100% 0%, 75% 60%, 25% 60%);
+        transition: background-color 0.3s ease;
+        z-index: 999;
+    }
+    
+    .trapezoid-button p {
+        margin-top: 9px;
+    }
+    
+    .trapezoid-button:hover {
+        background-color: #610c0c;
+        /* Sombra ao passar o mouse */
+    }
+}
+@media screen and (min-width:721px) and (max-width: 1400px) {
+    .section2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 937px;
+        /*border-top: 2px solid red;*/
+        /*background: radial-gradient(circle, rgba(172, 84, 47, 1) 0%, rgba(41, 19, 10, 1) 1%, rgba(2, 0, 36, 1) 100%);
+        */
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .relative-for-bg {
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    
+    .bg-tentativa {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background: url(image/bg-section-two.png);
+    
+        z-index: 200;
+    }
+    
+    
+    
+    
+    .redes-sectwo {
+        border-bottom: red solid 13px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 200px;
+        width: calc(50% - 200px * 2);
+        height: 85px;
+        background: linear-gradient(90deg, #ff4655, #ff4655, #ff4655);
+    }
+    
+    .social-icon {
+        position: relative;
+        color: #ffffff;
+        transition: color 0.3s ease;
+        text-decoration: none;
+        /* Remove o sublinhado padrão */
+        padding: 0 30px;
+        font-size: 50px;
+        cursor: pointer;
+    
+        animation: moveIcons 15s linear infinite;
+        transition: color 0.3s ease, font-size 0.3s ease;
+    }
+    
+    .social-icon:hover {
+        color: #000000;
+    }
+    
+    .social-icons-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        animation: scroll 10s linear infinite;
+    }
+    
+    .widget {}
+    
+    .widget-spacing-vertical {
+        padding: 100px 0px;
+    }
+    
+    .widget-spacing-horizontal {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 80px;
+    }
+    
+    .button1 {
+        /*position: absolute; */
+        border: 2px solid red;
+        color: white;
+        background-color: red;
+        /*margin: -211px 537px; */
+        padding: 15px 2px;
+        width: 15%;
+        cursor: pointer;
+        font-family: "FF Mark W05", Arial, sans-serif;
+    }
+    
+    
+    .button1:hover {
+        background-color: transparent;
+        font-weight: bold;
+        animation-name: deepu;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    .div-title-news {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    
+    .div-title-news h2 {
+        color: white;
+        font-size: 50px;
+    }
+    
+    .button-standard {
+        transition: all 0.5s ease-in-out;
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgba(41, 41, 41, 0.473);
+    }
+    
+    .button-standard:hover,
+    .button-standard:focus {
+        background-color: rgba(24, 24, 24, 0.548);
+        text-decoration: none;
+        /* Remove qualquer decoração como sublinhado ao passar o mouse ou focar */
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+    }
+    
+    .button-standard span {
+        font-size: 22px;
+        color: white;
+    }
+    
+    .wrapper-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        /* background-color: #ccc; */
+    }
+    
+    .wrapper-link {
+    
+        /*overflow: hidden; */
+        margin-right: 24px;
+        width: 1008px;
+        height: auto;
+        /* background-color: rgb(44, 44, 44); */
+    
+    
+    }
+    
+    .responsive-media img {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+        /* Adiciona uma transição suave */
+    }
+    
+    .responsive-media:hover img {
+        transform: scale(1.2);
+        /* Aumenta o tamanho da imagem em 10% */
+    }
+    
+    .wrapper-responsive:hover {
+        transform: translateY(-10px);
+        /* Move a div pai 10px para cima */
+    }
+    
+    .article-li:hover {
+        transform: translateY(-10px);
+        /* Move a div pai 10px para cima */
+    }
+    
+    .responsive-media:hover img {
+        transform: scale(1.2);
+        /* Aumenta a imagem em 10% */
+    }
+    
+    .wrapper-responsive {
+        transition: transform 0.3s ease;
+        border-radius: 25px;
+        overflow: hidden;
+        height: 430px;
+    
+    }
+    
+    
+    .guia-content {
+        padding: 16px 0px;
+        height: 82px;
+        width: 50%;
+        font-size: 25px;
+    }
+    
+    .guia-content h3 {
+        margin-bottom: 16px;
+    }
+    
+    .category-wrapper {
+        align-items: center;
+        display: flex;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: 32px;
+    }
+    
+    .game-badge-scarlet {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .icon {
+        width: 17px;
+        height: 14px;
+    }
+    
+    .category-img {
+        background-color: #000000b2;
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        /* Alinha horizontalmente ao centro */
+        align-items: center;
+        /* Alinha verticalmente ao centro */
+        height: 30px;
+        width: 30px;
+    }
+    
+    .category-img img {
+        top: 25px;
+    }
+    
+    .category-news a {
+        font-size: 17px;
+    }
+    
+    
+    .articles {
+        /* Styles for the list of articles */
+        width: 670px;
+        height: 620px;
+        /* Adjust height as needed */
+        display: flex;
+        /* Or any desired layout */
+        flex-direction: column;
+        /* Stack items vertically */
+    }
+    
+    .article-li {
+    
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+        display: flex;
+        overflow: hidden;
+        width: 670px;
+        height: 135px;
+        /* Styles for each article list item */
+        /* Adjust width and height as needed */
+    }
+    
+    .article-card {
+        background-color: #555555a2;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        /* Styles for the article card */
+        width: 100%;
+        /* Or adjust based on layout */
+        text-decoration: none;
+        margin: 10px;
+        /* Remove underline from links */
+        color: inherit;
+        /* Inherit text color from parent */
+    }
+    
+    .article-title-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 280px;
+        padding: 16px 0;
+        padding-right: 8px;
+        padding-left: 26px;
+        /* Styles for the title and category area */
+        padding: 16px;
+        /* Adjust padding as needed */
+    }
+    
+    .article-title-wrapper h3 {
+        /* Styles for the article title */
+        margin: 0;
+        /* Remove default margin */
+    }
+    
+    .category-wrapper {
+        /* Styles for the category section */
+        display: flex;
+        align-items: center;
+        /* Align content vertically */
+    }
+    
+    .category-wrapper span {
+        /* Styles for the category icon (if using Font Awesome) */
+        /* You might need to adjust styles based on your icons */
+    }
+    
+    .category-wrapper div {
+        /* Styles for the category text */
+        margin-left: 5px;
+        /* Adjust spacing as needed */
+    }
+    
+    .article-image {
+        overflow: hidden;
+        border-radius: 25px;
+        position: absolute;
+        width: 300px;
+        right: 0px;
+        /* Ajusta a largura da div */
+        height: 100%;
+        /* Ajusta a altura da div */
+    }
+    
+    .article-image img {
+        position: absolute;
+        /* Posiciona a imagem dentro da div */
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Faz a imagem ocupar toda a largura da div */
+        height: 100%;
+        /* Faz a imagem ocupar toda a altura da div */
+        object-fit: cover;
+        /* Cobre a área da div, mantendo a proporção da imagem */
+    }
+    
+    .button-100w {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .trapezoid-button {
+        /*border: 2px solid red;*/
+    
+        /* Sombra esfumaçada abaixo do botão */
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        width: 200px;
+        height: 60px;
+        background-color: #ce3939;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        position: relative;
+        clip-path: polygon(0% 0%, 100% 0%, 75% 60%, 25% 60%);
+        transition: background-color 0.3s ease;
+        z-index: 999;
+    }
+    
+    .trapezoid-button p {
+        margin-top: 9px;
+    }
+    
+    .trapezoid-button:hover {
+        background-color: #610c0c;
+        /* Sombra ao passar o mouse */
+    }
+}
+@media screen and (min-width:1401px) and (max-width: 2000px) {
+    .section2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 937px;
+        /*border-top: 2px solid red;*/
+        /*background: radial-gradient(circle, rgba(172, 84, 47, 1) 0%, rgba(41, 19, 10, 1) 1%, rgba(2, 0, 36, 1) 100%);
+        */
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .relative-for-bg {
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    
+    .bg-tentativa {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background: url(image/bg-section-two.png);
+    
+        z-index: 200;
+    }
+    
+    
+    
+    
+    .redes-sectwo {
+        border-bottom: red solid 13px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 200px;
+        width: calc(50% - 200px * 2);
+        height: 85px;
+        background: linear-gradient(90deg, #ff4655, #ff4655, #ff4655);
+    }
+    
+    .social-icon {
+        position: relative;
+        color: #ffffff;
+        transition: color 0.3s ease;
+        text-decoration: none;
+        /* Remove o sublinhado padrão */
+        padding: 0 30px;
+        font-size: 50px;
+        cursor: pointer;
+    
+        animation: moveIcons 15s linear infinite;
+        transition: color 0.3s ease, font-size 0.3s ease;
+    }
+    
+    .social-icon:hover {
+        color: #000000;
+    }
+    
+    .social-icons-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        animation: scroll 10s linear infinite;
+    }
+    
+    .widget {}
+    
+    .widget-spacing-vertical {
+        padding: 100px 0px;
+    }
+    
+    .widget-spacing-horizontal {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 80px;
+    }
+    
+    .button1 {
+        /*position: absolute; */
+        border: 2px solid red;
+        color: white;
+        background-color: red;
+        /*margin: -211px 537px; */
+        padding: 15px 2px;
+        width: 15%;
+        cursor: pointer;
+        font-family: "FF Mark W05", Arial, sans-serif;
+    }
+    
+    
+    .button1:hover {
+        background-color: transparent;
+        font-weight: bold;
+        animation-name: deepu;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    .div-title-news {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    
+    .div-title-news h2 {
+        color: white;
+        font-size: 50px;
+    }
+    
+    .button-standard {
+        transition: all 0.5s ease-in-out;
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgba(41, 41, 41, 0.473);
+    }
+    
+    .button-standard:hover,
+    .button-standard:focus {
+        background-color: rgba(24, 24, 24, 0.548);
+        text-decoration: none;
+        /* Remove qualquer decoração como sublinhado ao passar o mouse ou focar */
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+    }
+    
+    .button-standard span {
+        font-size: 22px;
+        color: white;
+    }
+    
+    .wrapper-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        /* background-color: #ccc; */
+    }
+    
+    .wrapper-link {
+    
+        /*overflow: hidden; */
+        margin-right: 24px;
+        width: 1008px;
+        height: auto;
+        /* background-color: rgb(44, 44, 44); */
+    
+    
+    }
+    
+    .responsive-media img {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+        /* Adiciona uma transição suave */
+    }
+    
+    .responsive-media:hover img {
+        transform: scale(1.2);
+        /* Aumenta o tamanho da imagem em 10% */
+    }
+    
+    .wrapper-responsive:hover {
+        transform: translateY(-10px);
+        /* Move a div pai 10px para cima */
+    }
+    
+    .article-li:hover {
+        transform: translateY(-10px);
+        /* Move a div pai 10px para cima */
+    }
+    
+    .responsive-media:hover img {
+        transform: scale(1.2);
+        /* Aumenta a imagem em 10% */
+    }
+    
+    .wrapper-responsive {
+        transition: transform 0.3s ease;
+        border-radius: 25px;
+        overflow: hidden;
+        height: 430px;
+    
+    }
+    
+    
+    .guia-content {
+        padding: 16px 0px;
+        height: 82px;
+        width: 50%;
+        font-size: 25px;
+    }
+    
+    .guia-content h3 {
+        margin-bottom: 16px;
+    }
+    
+    .category-wrapper {
+        align-items: center;
+        display: flex;
+        /* background-color: #ccc; */
+        width: 100%;
+        height: 32px;
+    }
+    
+    .game-badge-scarlet {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .icon {
+        width: 17px;
+        height: 14px;
+    }
+    
+    .category-img {
+        background-color: #000000b2;
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        /* Alinha horizontalmente ao centro */
+        align-items: center;
+        /* Alinha verticalmente ao centro */
+        height: 30px;
+        width: 30px;
+    }
+    
+    .category-img img {
+        top: 25px;
+    }
+    
+    .category-news a {
+        font-size: 17px;
+    }
+    
+    
+    .articles {
+        /* Styles for the list of articles */
+        width: 670px;
+        height: 620px;
+        /* Adjust height as needed */
+        display: flex;
+        /* Or any desired layout */
+        flex-direction: column;
+        /* Stack items vertically */
+    }
+    
+    .article-li {
+    
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+        display: flex;
+        overflow: hidden;
+        width: 670px;
+        height: 135px;
+        /* Styles for each article list item */
+        /* Adjust width and height as needed */
+    }
+    
+    .article-card {
+        background-color: #555555a2;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        /* Styles for the article card */
+        width: 100%;
+        /* Or adjust based on layout */
+        text-decoration: none;
+        margin: 10px;
+        /* Remove underline from links */
+        color: inherit;
+        /* Inherit text color from parent */
+    }
+    
+    .article-title-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 280px;
+        padding: 16px 0;
+        padding-right: 8px;
+        padding-left: 26px;
+        /* Styles for the title and category area */
+        padding: 16px;
+        /* Adjust padding as needed */
+    }
+    
+    .article-title-wrapper h3 {
+        /* Styles for the article title */
+        margin: 0;
+        /* Remove default margin */
+    }
+    
+    .category-wrapper {
+        /* Styles for the category section */
+        display: flex;
+        align-items: center;
+        /* Align content vertically */
+    }
+    
+    .category-wrapper span {
+        /* Styles for the category icon (if using Font Awesome) */
+        /* You might need to adjust styles based on your icons */
+    }
+    
+    .category-wrapper div {
+        /* Styles for the category text */
+        margin-left: 5px;
+        /* Adjust spacing as needed */
+    }
+    
+    .article-image {
+        overflow: hidden;
+        border-radius: 25px;
+        position: absolute;
+        width: 300px;
+        right: 0px;
+        /* Ajusta a largura da div */
+        height: 100%;
+        /* Ajusta a altura da div */
+    }
+    
+    .article-image img {
+        position: absolute;
+        /* Posiciona a imagem dentro da div */
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Faz a imagem ocupar toda a largura da div */
+        height: 100%;
+        /* Faz a imagem ocupar toda a altura da div */
+        object-fit: cover;
+        /* Cobre a área da div, mantendo a proporção da imagem */
+    }
+    
+    .button-100w {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .trapezoid-button {
+        /*border: 2px solid red;*/
+    
+        /* Sombra esfumaçada abaixo do botão */
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        width: 200px;
+        height: 60px;
+        background-color: #ce3939;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        position: relative;
+        clip-path: polygon(0% 0%, 100% 0%, 75% 60%, 25% 60%);
+        transition: background-color 0.3s ease;
+        z-index: 999;
+    }
+    
+    .trapezoid-button p {
+        margin-top: 9px;
+    }
+    
+    .trapezoid-button:hover {
+        background-color: #610c0c;
+        /* Sombra ao passar o mouse */
+    }
+}

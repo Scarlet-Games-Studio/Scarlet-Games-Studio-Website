@@ -1,0 +1,285 @@
+@media screen and (min-width:80px) and (max-width: 1400px) {
+  i.fa-menu-size{
+    font-size: 20px;  /* Ajusta o tamanho */
+  }
+  
+  .list-menu{
+    display: none;
+    flex-direction: column;
+
+  }
+  .header{
+    justify-content: space-between;
+  }
+
+  .bars-menu{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #575757d2;
+    border-radius: 33%;
+    display: flex;
+    width: 35px;
+    height: 35px;
+  }
+  .pre-menu{
+    display: none;
+    margin: 0 auto;
+    margin-top: 9px;
+    left: 0px;
+background-color: #1b1b1b;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    height: auto;
+  }
+  #left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header {
+  font-family: 'poppins-thin', ;
+  position: fixed;
+  top: 0;
+  /*background-color: rgb(145, 145, 145);*/ 
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: transparent 1px solid;
+}
+
+
+/* Define pre-menu como visível quando a classe 'active' é aplicada */
+.pre-menu.active {
+  display: block;
+}
+}
+
+/*_____________________Estilos para dispositivos CELULARES__________________________________________________*/
+@media screen and (min-width: 1401px ) and (max-width: 2000px) {
+  .bars-menu{
+    display: none;
+  }
+  
+  
+.content-pre-menu{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+}
+
+.pre-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+}
+.header {
+  font-family: 'poppins-thin', ;
+  position: fixed;
+  top: 0;
+  /*background-color: rgb(145, 145, 145);*/ 
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: transparent 1px solid;
+}
+.header-center {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+}
+
+/*_____________________Estilos para dispositivos DESKTOPS__________________________________________________*/
+
+
+
+
+/* Estilo para telas com largura máxima de 1400px */
+
+
+.header .scrolled {
+  background-color: #000;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(90deg, #ff4655, #ffda65, #00ff95, #00aeff, #ff4655) 1;
+  /* Gradiente aplicado à borda */
+  animation: borderAnimation 3s infinite alternate;
+  /* Animação que alterna as cores */
+}
+
+/* Animação keyframes */
+@keyframes borderAnimation {
+  0% {
+    border-image: linear-gradient(90deg, #ff4655, #ffda65, #00ff95, #00aeff, #ff4655) 1;
+  }
+
+  50% {
+    border-image: linear-gradient(90deg, #ffda65, #00ff95, #00aeff, #ff4655, #ffda65) 1;
+  }
+
+  100% {
+    border-image: linear-gradient(90deg, #00ff95, #00aeff, #ff4655, #ffda65, #00ff95) 1;
+  }
+}
+
+
+
+.header-center ul li {
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.header-center ul {
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#left {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  padding: 0px 20px 0px 20px; 
+}
+
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*position: absolute;
+    top: 10px;
+    /*right: -250px; */
+}
+
+/* Estilo para o container do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 3px;
+  color: #ffffff;
+}
+
+.dropdown:hover {
+  color: #a1a1a1;
+}
+
+/* Ocultar o submenu inicialmente */
+.dropdown .submenu-drop-info {
+  border-top: solid 4px red;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  width: 220px;
+  border-radius: 4px;
+  padding: 10px 0;
+  z-index: 999;
+}
+
+/* Estilos para os itens do submenu */
+.submenu-item {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.submenu-link {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submenu-link:hover {
+  background-color: #f5f5f5;
+  color: #e60000;
+}
+
+/* Exibir o submenu ao passar o mouse no dropdown */
+.dropdown:hover .submenu-drop-info {
+  display: block;
+}
+
+/* Linha sublinhada */
+.submenu-underline {
+  top: 0;
+  height: 4px;
+  width: 100%;
+  background-color: rgb(209, 54, 57);
+  border-radius: 2px 2px 0 0;
+}
+
+.submenu-info {
+  display: none;
+}
+
+.button {
+  border: none;
+  color: black;
+  background-color: #ff4655;
+  width: 100px;
+  height: 39px;
+  border-radius: 40px;
+  padding: 7px 2px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 6px;
+  cursor: pointer;
+}
+
+
+
+
+.i2 {
+color: white;
+width: auto;
+align-items: center;
+
+height: 40px; 
+}
+
+
+.i1 {
+color: white;
+width: auto;
+align-items: center;
+
+margin: -40px 30px;
+height: 45px;
+}
+.dropdown .drop-info{
+padding: 5px 7px;
+border-radius: 5px;
+}
+.dropdown:hover .drop-info{
+color: white;
+background-color: rgba(209, 209, 209, 0.212);
+}
+
+.arrow {
+margin-left: 7px;
+}
