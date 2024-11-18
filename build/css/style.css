@@ -1,0 +1,64 @@
+/*
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: 'Mark Pro', Arial, sans-serif;
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    color: white;
+    background-color: #ccc;
+    min-width: 320px;
+    max-width: 100%;
+}
+
+.pos-relative{position: relative;}
+.d-in-block{ display: inline-block;}
+.c-point{cursor: pointer;}
+
+.transition-bg-border-bot{transition: background-color 0.3s ease, border-bottom 0.3s ease;}
+
+.border-bot-trans-1{border-bottom: transparent 1px solid;}
+
+.h-55{height: 55px;}
+.h-40{height: 40px;}
+.h-45{height: 45px;}
+.h-auto{height: auto;}
+.w-auto{ width: auto;}
+
+.bg-none{background: none;}
+
+.white{color: white;}
+
+.d-flex{display: flex;}
+
+.dir-row{flex-direction: row;}
+
+.just-between{justify-content: space-between;}
+
+.just-center{justify-content: center;}
+
+.align-center{align-items: center;}
+
+.z-idx{z-index: 1000;}
+
+.dec-none{text-decoration: none;}
+
+.max-w-100{width: 100%;}
+
+.pos-fix{position:fixed;}
+
+.top-0{top: 0;}
+
+.padd-g10{ padding: 10px;}
+.padd-l-50{padding-left: 50px;}
+
+.padd-r-16{padding-right: 16px;}
+.mg-0-5{
+    margin: 0px 5px;
+}
+    */
