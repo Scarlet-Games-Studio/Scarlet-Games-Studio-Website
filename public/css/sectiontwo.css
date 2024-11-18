@@ -137,21 +137,7 @@
         background-color: rgba(41, 41, 41, 0.473);
     }
     
-    .button-vertudo {
-        transition: all 0.5s ease-in-out;
-        outline: none;
-        /* Remove qualquer outline (bordas ao focar) */
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100px;
-        height: 30px;
-        border-radius: 5px;
-        padding: 5px ;
-        margin-top: 25px;
-        background-color: rgba(41, 41, 41, 0.473);
-    }
+   
     
     .button-standard:hover,
     .button-standard:focus {

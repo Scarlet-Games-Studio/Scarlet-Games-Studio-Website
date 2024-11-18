@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './header.css';
-import IconScarlet from '../../../public/assets/image/IconScarlet.png';
-import NomeScarletGames from '../../../public/assets/image/ScarletGamesStudio.png';
+//import IconScarlet from '../../public/assets/image/IconScarlet.png';
+//import NomeScarletGames from '../../public/assets/image/ScarletGamesStudio.png';
 import { manipulateDOM } from './menuMobile';  // Importa o arquivo JS separado
 
 const Header = () => {
@@ -29,8 +29,8 @@ const Header = () => {
   return (
     <header id="header" className="header poppins-thin">
       <div id="left" className="">
-        <img className="i2" src={IconScarlet} alt="Icon Scarlet" />
-        <img className="i1" src={NomeScarletGames} alt="Nome Scarlet Games" />
+        <img className="i2" src='assets/image/IconScarlet.png' alt="Icon Scarlet" />
+        <img className="i1" src='/assets/image/ScarletGamesStudio.png' alt="Nome Scarlet Games" />
         <nav className="header-center">
           <div className="content-pre-menu">
             <div id="menu" className="bars-menu">

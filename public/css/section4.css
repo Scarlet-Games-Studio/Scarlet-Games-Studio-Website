@@ -26,12 +26,15 @@
 }
 
 .return-deg {
+    
     margin-left: -50px;
     width: 100%;
 }
 
 .return-deg img {
-    width: 150%;
+    object-fit: cover;
+    
+    
 }
 
 .contratanto-vagas {
@@ -243,21 +246,26 @@
     
     .deg-30 {
         top: 0;
-        right: -10px;
+        right: -100px;
         position: absolute;
         overflow: hidden;
         width: 1050px;
+        height: 100%;
         transform: skew(-20deg);
+        background-color: #CC3649;
     }
     
     .return-deg {
-        margin-left: -50px;
+        margin-left: -250px;
         width: 100%;
         transform: skew(20deg);
     }
     
     .return-deg img {
-        width: 150%;
+        
+        margin-top: -60px;
+        margin-left:250px ;
+        width: 100%;
     }
     
     .contratanto-vagas {

@@ -1,11 +1,11 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'; // Importando createRoot
 //import Header from 'src/Header';
-import Header from './src/components/header/header.js';
-import SectionVideo from './src/components/sections/sectionOne.js';
-import Footer from './src/components/footer/footer.js';
-import Carrousel from './src/components/carrousel/carrousel.js';
-import MobileMenu from './src/components/header/menuMobile.js';
+import Header from './components/header/header.js';
+import SectionVideo from './components/sections/sectionOne.js';
+import Footer from './components/footer/footer.js';
+import Carrousel from './components/carrousel/carrousel.js';
+import MobileMenu from './components/header/menuMobile.js';
 
 
 if (typeof document !== 'undefined') {

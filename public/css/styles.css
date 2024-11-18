@@ -6,9 +6,24 @@
         margin: 0px 0px;
         padding: 0px 0px;
         color: white;
-        background-color: #ccc;
+        background-color: #242424;
         min-width: 320px;
         max-width: 100%;
+    }
+    .button-vertudo {
+        transition: all 0.5s ease-in-out;
+        outline: none;
+        /* Remove qualquer outline (bordas ao focar) */
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px ;
+        margin-top: 25px;
+        background-color: rgba(41, 41, 41, 0.473);
     }
     .button-elements{
         font-family: "Poppins", serif;
@@ -403,7 +418,7 @@
         margin: 0px 0px;
         padding: 0px 0px;
         color: white;
-        background-color: #ccc;
+        background-color: #242424;
         min-width: 320px;
         max-width: 100%;
     }
@@ -798,7 +813,7 @@ body {
     margin: 0px 0px;
     padding: 0px 0px;
     color: white;
-    background-color: #ccc;
+    background-color: #242424;
     min-width: 320px;
     max-width: 100%;
 }
@@ -1182,6 +1197,21 @@ a :hover {
 .personal-social-icon{
     margin:0 5px;
 
+}
+.button-vertudo {
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    /* Remove qualquer outline (bordas ao focar) */
+    text-decoration: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px ;
+    margin-top: 25px;
+    background-color: rgba(41, 41, 41, 0.473);
 }
 }
 /*__________________________________________________________________*/

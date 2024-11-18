@@ -136,10 +136,12 @@
   
   .custom-button__content {
     height: 50px;
+    width: 100%;
     display: flex;
     /* Flexbox para ícone e texto */
     align-items: center;
     /* Alinha o conteúdo */
+    justify-content: center;
   }
   
   .custom-button__icon {
@@ -165,6 +167,7 @@
   }
   
   .p-button {
+
     font-size: 15px;
   }
 }
@@ -434,6 +437,7 @@
     display: inline-flex;
     /* Exibe o conteúdo como flexbox para alinhamento */
     align-items: center;
+    justify-content: center;
     /* Centraliza verticalmente o conteúdo */
     background-color: #ff4655;
     /* Cor de fundo do botão */

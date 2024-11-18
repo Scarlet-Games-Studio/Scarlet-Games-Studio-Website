@@ -1,7 +1,7 @@
 import React, { useState, useEffect,Suspense  } from 'react';
 import './sectionOne.css';
-import Videoplayback from '../../../public/assets/video/Videoplayback.mp4';
-import NomeScarletGames from '../../../public/assets/image/NomeScarletGames.png';
+//import Videoplayback from '/assets/video/Videoplayback.mp4';
+//import NomeScarletGames from '../../public/assets/image/NomeScarletGames.png';
 
 const SectionOne = () => {
   
@@ -12,25 +12,21 @@ const SectionOne = () => {
              {console.log('TESTEEEEEEEEEEEEEEEEE')}
             <div className="video-container">
                 <video muted loop autoPlay /*controls*/> 
-                    <source src={Videoplayback} type="video/mp4" />
+                    <source src='assets/video/Videoplayback.mp4' type="video/mp4" />
                 </video>
             </div>
             <div id="div-canto">
                 <div id="new-canto">
                     <div className="content-logo">
-                        <img className="" src={NomeScarletGames} alt="" />
+                        <img className="" src='assets/image/NomeScarletGames.png' alt="" />
                     </div>
                     <div className="h1-new">
                         <h1>
-                            É hora de virar tudo de cabeça
-                            <br/>
-                            pra baixo.
+                        Seja Bem vindo a Scarlet Games Studio
                         </h1>
                     </div>
                     <p className="p-text">
-                        A temporada final de Arcane chega à Netflix
-    
-                        em novembro.
+                    O Nosso Sonho é trazer um Universo de Entretenimento e Aventura para Nossos Players. <br/> 
                     </p>
                     <a href="https://www.youtube.com/watch?v=LUK9FRxCTtM" target="_blank" rel="noopener"
                         className="custom-button">
@@ -42,7 +38,7 @@ const SectionOne = () => {
                                         fill="#F0F0F0"></path>
                                 </svg>
                             </div>
-                            <p className="p-button">Assista ao trailer agora</p>
+                            <p className="p-button">Lançamentos</p>
                         </span>
                     </a>
     

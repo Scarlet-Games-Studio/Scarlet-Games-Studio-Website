@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
-import IconScarlet from '../../../public/assets/image/IconScarlet.png';
+//import IconScarlet from '../../public/assets/image/IconScarlet.png';
+
 
 const Footer = () => {
   
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className=" top-fot">
                 <ul className='fot-list'>
                     <li className="fot-content-list">
-                        <img className="i-scarlet" src={IconScarlet} alt="Icon Scarlet" />
+                        <img className="i-scarlet" src='assets/image/IconScarlet.png' alt="Icon Scarlet" />
                     </li>
                     <li className="fot-content-list">
                     <p>IMPRENSA</p>

@@ -38,7 +38,7 @@ const teamInfo = {
   5: { nome: 'Tiago Gomes', funcao: 'Artista 3D', redes: ['https://youtube.com/tiago', 'https://tiktok.com/tiago', 'https://facebook.com/tiago', 'https://twitter.com/tiago', 'https://instagram.com/tiago', 'https://linkedin.com/in/tiago'] },
   6: { nome: 'Joatham', funcao: 'Programador', redes: ['https://www.youtube.com/@ii_yhwh_ii', 'https://www.tiktok.com/@ii_yhwh_ii', 'https://www.facebook.com/II.YHWH.II', 'https://x.com/ii_YHWH_ii', 'https://instagram.com/silva_o_dev', 'https://www.linkedin.com/in/silva-joatham/'] },
   7: { nome: 'Rafael', funcao: 'Artista 2D', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
-  7: { nome: 'Estephanie', funcao: 'Editora de Video', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
+  8: { nome: 'Estephanie', funcao: 'Editora de Video', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
   //9: { nome: 'nome', funcao: 'Artista/Ilustrador' },
   //10: { nome: 'nome', funcao: 'Artista/Ilustrador' },
   // Adicione o restante das divs...
