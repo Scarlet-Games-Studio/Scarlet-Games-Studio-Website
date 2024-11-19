@@ -17,12 +17,12 @@ const Header = () => {
   }, []);
 
   const menuItems = [
-    { title: 'GAME INFO', links: [{ label: 'Sobre a Riot', href: '/pt-br/quem-somos' }, { label: 'Diversidade e Inclusão', href: '/pt-br/diversity-and-inclusion' }, { label: 'Impacto social', href: '/pt-br/quem-somos/impacto-social' }] },
-    { title: 'MEDIA', links: [{ label: 'Media Content 1', href: '/media' }, { label: 'Media Content 2', href: '/media-2' }] },
+    { title: 'GAME INFO', links: [{ label: 'Cpyvara Vcs Cats', href: '/pt-br/quem-somos' }, { label: 'Water Dodge P.W.', href: '/pt-br/diversity-and-inclusion' }, { label: 'TreasureCatch', href: '/pt-br/quem-somos/impacto-social' }, { label: 'Sparks', href: '/pt-br/quem-somos/impacto-social' }] },
+    { title: 'MEDIA', links: [{ label: 'Galeria', href: '/media' }, { label: 'Galeria de Concepts', href: '/media-2' }] },
     { title: 'NEWS', links: [{ label: 'News Content 1', href: '/news' }, { label: 'News Content 2', href: '/news-2' }] },
     { title: 'LEADERSBORDS', links: [{ label: 'Leaderboard 1', href: '/leaderboards' }, { label: 'Leaderboard 2', href: '/leaderboards-2' }] },
-    { title: 'SUPPORT', links: [{ label: 'Support 1', href: '/support' }, { label: 'Support 2', href: '/support-2' }] },
-    { title: 'OUR SOCIALS', links: [{ label: 'Social 1', href: '/social' }, { label: 'Social 2', href: '/social-2' }] },
+    { title: 'CONTACT', links: [{ label: 'Intagram', href: 'https://www.instagram.com/scarlet_games.studio/' }, { label: 'Youtube', href: 'https://www.youtube.com/@ScarletGamesStudio' }, { label: 'Itch.io', href: 'https://scarlet-games-studio.itch.io/' }] },
+    { title: 'OUR SOCIALS', links: [{ label: 'Instagram', href: '/social' }, { label: 'Facebook', href: '/social-2' }] },
     { title: 'MORE', links: [{ label: 'More Content 1', href: '/more' }, { label: 'More Content 2', href: '/more-2' }] },
   ];
 

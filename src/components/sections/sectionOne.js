@@ -28,7 +28,7 @@ const SectionOne = () => {
                     <p className="p-text poppins-thin">
                     O Nosso Sonho é trazer um Universo de Entretenimento e Aventura para Nossos Players. <br/> 
                     </p>
-                    <a href="https://www.youtube.com/watch?v=LUK9FRxCTtM" target="_blank" rel="noopener"
+                    <a href="https://www.youtube.com/@ScarletGamesStudio" target="_blank" rel="noopener"
                         className="custom-button">
                         <span className="custom-button__content">
                             <div className="custom-button__icon">
@@ -38,7 +38,7 @@ const SectionOne = () => {
                                         fill="#F0F0F0"></path>
                                 </svg>
                             </div>
-                            <a href=''><p className="p-button poppins-thin">Lançamentos</p> </a>
+                            <a href='https://www.youtube.com/@ScarletGamesStudio'><p className="p-button poppins-thin">Lançamentos</p> </a>
                         </span>
                     </a>
     

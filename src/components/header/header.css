@@ -1,4 +1,10 @@
 @media screen and (min-width:80px) and (max-width: 1400px) {
+  .drop-info p{
+    font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+
+  }
   i.fa-menu-size{
     font-size: 20px;  /* Ajusta o tamanho */
   }
@@ -64,6 +70,12 @@ background-color: #1b1b1b;
 @media screen and (min-width: 1401px ) and (max-width: 2000px) {
   .bars-menu{
     display: none;
+  }
+  .drop-info p{
+    font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+
   }
   
   
