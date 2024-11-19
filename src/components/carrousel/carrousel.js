@@ -39,7 +39,7 @@ const teamInfo = {
   6: { nome: 'Joatham Silva', funcao: 'Programador', redes: ['https://www.youtube.com/@ii_yhwh_ii', 'https://www.tiktok.com/@ii_yhwh_ii', 'https://www.facebook.com/II.YHWH.II', 'https://x.com/ii_YHWH_ii', 'https://instagram.com/silva_o_dev', 'https://www.linkedin.com/in/silva-joatham/'] },
   7: { nome: 'Rafael', funcao: 'Artista 2D', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
   8: { nome: 'Estephanie', funcao: 'Editora de Video', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
-  9: { nome: 'Laura', funcao: 'Voice artist', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
+  9: { nome: 'Grace Lara', funcao: 'Voice artist', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
   10: { nome: 'Victor Antuny', funcao: 'Artista 2d', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
   // Adicione o restante das divs...
 };
