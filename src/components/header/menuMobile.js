@@ -11,10 +11,10 @@ export const manipulateDOM = () => {
     
    // Adiciona evento de clique ao botão do menu
    menuButton.addEventListener('click', () => {
-     console.log("script CLICK" + currentDisplay + ' : ' + preMenu.style.display + ' : ' + controlMenu );
-
+    
      // Obtém o estilo computado do preMenu
      let currentDisplay = window.getComputedStyle(preMenu).display;
+     console.log("script CLICK" + currentDisplay + ' : ' + preMenu.style.display + ' : ' + controlMenu );
 
      // Alterna entre os estilos de display
      if (controlMenu === true) {

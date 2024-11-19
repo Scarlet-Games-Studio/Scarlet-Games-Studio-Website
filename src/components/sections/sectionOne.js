@@ -21,11 +21,11 @@ const SectionOne = () => {
                         <img className="" src='assets/image/NomeScarletGames.png' alt="" />
                     </div>
                     <div className="h1-new">
-                        <h1>
+                        <h1 className='koulen-regular'>
                         Seja Bem vindo a Scarlet Games Studio
                         </h1>
                     </div>
-                    <p className="p-text">
+                    <p className="p-text poppins-thin">
                     O Nosso Sonho é trazer um Universo de Entretenimento e Aventura para Nossos Players. <br/> 
                     </p>
                     <a href="https://www.youtube.com/watch?v=LUK9FRxCTtM" target="_blank" rel="noopener"
@@ -38,7 +38,7 @@ const SectionOne = () => {
                                         fill="#F0F0F0"></path>
                                 </svg>
                             </div>
-                            <p className="p-button">Lançamentos</p>
+                            <a href=''><p className="p-button poppins-thin">Lançamentos</p> </a>
                         </span>
                     </a>
     

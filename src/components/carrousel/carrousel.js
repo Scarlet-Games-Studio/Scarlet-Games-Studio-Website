@@ -2,7 +2,7 @@ if (typeof document !== 'undefined') {
   // Código que usa document
   
 const galeryTeam = document.querySelector('.galery-team');
-const numPhotos = 7;
+const numPhotos = 10;
 const photoWidth = 354; // Largura da div + margens
 const speed = 4; // Pixels por frame
 //armazenar o width em uma variável do tamanho da janela "screen" 
@@ -36,11 +36,11 @@ const teamInfo = {
   3: { nome: 'Ryan William', funcao: 'Art Productor', redes: ['https://youtube.com/ryan', 'https://tiktok.com/ryan', 'https://facebook.com/ryan', 'https://twitter.com/ryan', 'https://instagram.com/ryan', 'https://linkedin.com/in/ryan'] },
   4: { nome: 'Laura', funcao: 'Voice Artist', redes: ['https://youtube.com/laura', 'https://tiktok.com/laura', 'https://facebook.com/laura', 'https://twitter.com/laura', 'https://instagram.com/laura', 'https://linkedin.com/in/laura'] },
   5: { nome: 'Tiago Gomes', funcao: 'Artista 3D', redes: ['https://youtube.com/tiago', 'https://tiktok.com/tiago', 'https://facebook.com/tiago', 'https://twitter.com/tiago', 'https://instagram.com/tiago', 'https://linkedin.com/in/tiago'] },
-  6: { nome: 'Joatham', funcao: 'Programador', redes: ['https://www.youtube.com/@ii_yhwh_ii', 'https://www.tiktok.com/@ii_yhwh_ii', 'https://www.facebook.com/II.YHWH.II', 'https://x.com/ii_YHWH_ii', 'https://instagram.com/silva_o_dev', 'https://www.linkedin.com/in/silva-joatham/'] },
+  6: { nome: 'Joatham Silva', funcao: 'Programador', redes: ['https://www.youtube.com/@ii_yhwh_ii', 'https://www.tiktok.com/@ii_yhwh_ii', 'https://www.facebook.com/II.YHWH.II', 'https://x.com/ii_YHWH_ii', 'https://instagram.com/silva_o_dev', 'https://www.linkedin.com/in/silva-joatham/'] },
   7: { nome: 'Rafael', funcao: 'Artista 2D', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
   8: { nome: 'Estephanie', funcao: 'Editora de Video', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
-  //9: { nome: 'nome', funcao: 'Artista/Ilustrador' },
-  //10: { nome: 'nome', funcao: 'Artista/Ilustrador' },
+  9: { nome: 'Laura', funcao: 'Voice artist', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
+  10: { nome: 'Victor Antuny', funcao: 'Artista 2d', redes: ['https://youtube.com/rafael', 'https://tiktok.com/rafael', 'https://facebook.com/rafael', 'https://twitter.com/rafael', 'https://instagram.com/rafael', 'https://linkedin.com/in/rafael'] },
   // Adicione o restante das divs...
 };
 
@@ -93,7 +93,7 @@ for (let i = 1; i <= numPhotos; i++) {
   popup.classList.add('poppins-thin');
   popup.style.position = 'absolute';
   popup.style.bottom = '0'; // Define a posição no topo da div pai
-  popup.style.width = '100%';
+  popup.style.width = '120%';
   popup.style.transform = 'skew(10deg)'
   //alinhas ao centro
   popup.style.textAlign = 'center';
@@ -173,7 +173,7 @@ functionPopup.innerHTML = `${info.funcao}`;
  
 
  namePopup.addEventListener('mouseover', () => {
-    popup.style.background = 'rgb(116, 17, 17)';
+    popup.style.background = 'rgba(116, 17, 17, 0.8)';
   });
   
   namePopup.addEventListener('mouseout', () => {
@@ -181,7 +181,7 @@ functionPopup.innerHTML = `${info.funcao}`;
   });
   //___________________________________________________________
   functionPopup.addEventListener('mouseover', () => {
-    popup.style.background = '#d8d66fe1';
+    popup.style.background = '#d4d00071';
   });
   
   functionPopup.addEventListener('mouseout', () => {
@@ -262,11 +262,11 @@ const pos = firstPhoto.getBoundingClientRect();
     let repositionOffset; // Offset para reposicionar as divs
 
     if (screenWidth <= 720) {
-        repositionOffset = 3182; // Ajuste para telas pequenas
+        repositionOffset = 4332; // Ajuste para telas pequenas
     } else if (screenWidth <= 1400) {
         repositionOffset = 1512; // Ajuste para telas médias
     } else {
-        repositionOffset = 2122; // Ajuste para telas grandes
+        repositionOffset = 3182; // Ajuste para telas grandes
     }
 
     // Reposiciona o elemento individualmente no final quando ele sair da tela
