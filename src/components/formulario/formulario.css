@@ -1,0 +1,116 @@
+@media screen and (min-width:80px) and (max-width: 720px) {
+  
+#form-contact{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CC3649;
+}
+.formulary-dad {
+    background: #ffffff;
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 40px) ;
+    max-width: 100%;
+  }
+
+  .formulary-dad h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .label-form {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  .input-form, .textarea-form, .select-form, .button-form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .textarea-form {
+    resize: vertical;
+  }
+
+  .button-form {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button-form:hover {
+    background: #0056b3;
+  }
+
+  .required {
+    color: red;
+  }
+}
+@media screen and (min-width:721px) and (max-width: 2000px) {
+
+#form-contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CC3649;
+}
+.formulary-dad {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-width: 1000px;
+  }
+
+  .formulary-dad h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .label-form {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  .input-form, .textarea-form, .select-form, .button-form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .textarea-form {
+    resize: vertical;
+  }
+
+  .button-form {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button-form:hover {
+    background: #0056b3;
+  }
+
+  .required {
+    color: red;
+  }
+}

@@ -1,0 +1,152 @@
+@media screen and (min-width:80px) and (max-width: 720px) {
+
+
+#about-us {
+    padding: 30px 15px;
+    width: calc(100% - 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Fundo claro */
+    text-align: center;
+    background-color: #242424;
+}
+
+.about-us-container {
+    max-width: 100%;
+    line-height: 1.8;
+    color: #ffffff; /* Cor principal do texto */
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-us-one{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+
+}
+
+.about-us-one-title{
+    font-size: 30px;
+    width: 100%;
+}
+
+.about-us-p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.active:hover{
+    color: #CC3649;
+}
+.objectives-deactive{
+    display: none;
+    
+}
+.active-objetives{
+    display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+}
+/*
+.about-us-p strong {
+    color: #d32f2f; 
+}
+
+.about-us-p em {
+    font-style: italic;
+    color: #318546;
+}
+
+.about-us-p .highlight {
+    font-weight: bold;
+    
+    color: #0066cc; 
+}
+
+#about-us:hover .highlight {
+    color: #ccc900; 
+}
+*/
+}
+
+@media screen and (min-width:721px) and (max-width: 2000px) {
+
+    .objectives-deactive{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .active-objectives{
+        display: none;
+    }
+    
+    #about-us {
+        padding: 30px 15px;
+        width: calc(100% - 30px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f9f9f9; /* Fundo claro */
+        text-align: center;
+        background-color: #242424;
+    }
+    
+    .about-us-container {
+        max-width: 100%;
+        line-height: 1.8;
+        color: #ffffff; /* Cor principal do texto */
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about-us-one{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .about-us-one-title{
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .about-us-p {
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .active:hover{
+        color: #CC3649;
+    }
+    /*
+    .about-us-p strong {
+        color: #d32f2f; 
+    }
+    
+    .about-us-p em {
+        font-style: italic;
+        color: #318546;
+    }
+    
+    .about-us-p .highlight {
+        font-weight: bold;
+        
+        color: #0066cc; 
+    }
+    
+    #about-us:hover .highlight {
+        color: #ccc900; 
+    }
+    */
+    }

@@ -1,4 +1,4 @@
-@media screen and (min-width:80px) and (max-width: 1400px) {
+@media screen and (min-width:80px) and (max-width: 720px) {
   .drop-info p{
     font-family: "Poppins", serif;
         font-weight: 300;
@@ -67,7 +67,7 @@ background-color: #1b1b1b;
 }
 
 /*_____________________Estilos para dispositivos CELULARES__________________________________________________*/
-@media screen and (min-width: 1401px ) and (max-width: 2000px) {
+@media screen and (min-width: 721px ) and (max-width: 2000px) {
   .bars-menu{
     display: none;
   }

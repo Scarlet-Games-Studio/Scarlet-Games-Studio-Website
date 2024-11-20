@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background-color: rgb(190, 175, 175);
     color: white;
     padding: 10px 0px;
     overflow: hidden;
@@ -41,7 +41,7 @@
 }
 }
 
-@media screen and (min-width:1400px) and (max-width: 2000px) {
+@media screen and (min-width:721px) and (max-width: 2000px) {
 
     .fot {
         width: calc(100% - 80px);
