@@ -263,9 +263,9 @@ const pos = firstPhoto.getBoundingClientRect();
 
     if (screenWidth <= 720) {
         repositionOffset = 3182; // Ajuste para telas pequenas
-    }/* else if (screenWidth <= 1400) {
-        repositionOffset = 1512; // Ajuste para telas médias 
-    } */else {
+    } else if (screenWidth <= 1400) {
+        repositionOffset = 2172; // Ajuste para telas médias 
+    } else {
         repositionOffset = 3182; // Ajuste para telas grandes
     }
 

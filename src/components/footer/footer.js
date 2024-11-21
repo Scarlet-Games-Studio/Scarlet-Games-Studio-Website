@@ -72,7 +72,7 @@ const Footer = () => {
                     <p>&copy; 2024, Scarlet Games, Inc. Todos os direitos reservados</p>
                     <div class="separator"></div>
                 <div >
-                    voltar ao topo
+                    <a href="#sectionvideo" >voltar ao topo</a>
                     </div>
             </div>
         </div>

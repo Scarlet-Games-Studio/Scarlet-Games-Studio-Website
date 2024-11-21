@@ -116,8 +116,130 @@
     background-color: #f3515edc;
 }
 }
+
     /*________________________________________________________________*/
-@media screen and (min-width:721px) and (max-width: 2000px) {
+    @media screen and (min-width:721px) and (max-width: 1400px) {
+
+        .section4 {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+        
+        .contratando {
+            position: relative;
+            display: flex;
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 400px;
+        }
+        
+        .contratanto-vagas {
+            width: 450px;
+            overflow: hidden;
+        }
+        
+        .deg-30 {
+            top: 0;
+            right: -130px;
+            position: absolute;
+            overflow: hidden;
+            width: 650px;
+            height: 100%;
+            transform: skew(-20deg);
+            background-color: #CC3649;
+        }
+        
+        .return-deg {
+            margin-left: -250px;
+            width: 100%;
+            transform: skew(20deg);
+        }
+        
+        .return-deg img {
+            
+            margin-top: -20px;
+            margin-left:250px ;
+            width: 100%;
+        }
+        
+        .contratanto-vagas {
+            color: black;
+            padding: 110px 0px;
+        
+            padding-left: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+        }
+        
+        .contratanto-vagas h2 {
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+        
+        .juntese-our {
+            font-size: 15px;
+            width: 430px;
+            height: 100px;
+            padding-bottom: 20px;
+        }
+        
+        .botoes-vagas {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        .p-vagas {
+            font-size: 20px;
+            
+            height: 92px
+            
+        }
+        
+        .p-explorar {
+            font-size: 20px;
+        }
+        
+        
+        .botao-n-vagas {
+            width: 200px;
+            margin: 0 8px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            border-radius: 15px;
+            padding: 15px;
+            background-color: #b9b9b9;
+            transition: background-color 0.5s ease-in-out, transform 0.3s ease-in-out;
+        }
+        
+        .botao-n-vagas:hover {
+            background-color: #858585d0;
+            /* Adiciona um leve efeito de zoom */
+        }
+        
+        .botao-carreiras {
+            width: 200px;
+            border-radius: 15px;
+            margin: 15px 80px;
+            padding: 15px 15px;
+            background-color: #ff4655;
+            transition: background-color 0.5s ease-in-out;
+        }
+        
+        .botao-carreiras:hover {
+            background-color: #f3515edc;
+        }
+        }
+    /*________________________________________________________________*/
+@media screen and (min-width:1401px) and (max-width: 2000px) {
 
     .section4 {
         width: 100%;

@@ -17,10 +17,10 @@ const Header = () => {
   }, []);
 
   const menuItems = [
-    { title: 'GAME INFO', links: [{ label: 'Cpybara Vcs Cats', href: '/pt-br/quem-somos' }, { label: 'Water Dodge P.W.', href: '/pt-br/diversity-and-inclusion' }, { label: 'TreasureCatch', href: '/pt-br/quem-somos/impacto-social' }, { label: 'Sparks', href: '/pt-br/quem-somos/impacto-social' }] },
+    { title: 'GAME INFO', links: [{ label: 'Capybara Vs Cats', href: '#capybaravscat' }, { label: 'Water Dodge P.W.', href: '#WaterDodgePastWaves' }, { label: 'TreasureCatch', href: '#TreasureCatch' }, { label: 'Spark', href: '/pt-br/quem-somos/impacto-social' }] },
     { title: 'MEDIA', links: [{ label: 'Galeria', href: '/media' }, { label: 'Galeria de Concepts', href: '/media-2' }] },
     { title: 'NEWS', links: [{ label: 'News Content 1', href: '/news' }, { label: 'News Content 2', href: '/news-2' }] },
-    { title: 'ABOUT US', links: [{ label: 'ABOUT 1', href: '/leaderboards' }, { label: 'ABOUT 2', href: '/leaderboards-2' }] },
+    { title: 'ABOUT US', links: [{ label: 'About us', href: '#about-us' },] },
     { title: 'CONTACT', links: [{ label: 'Intagram', href: 'https://www.instagram.com/scarlet_games.studio/' }, { label: 'Youtube', href: 'https://www.youtube.com/@ScarletGamesStudio' }, { label: 'Itch.io', href: 'https://scarlet-games-studio.itch.io/' }] },
     { title: 'OUR SOCIALS', links: [{ label: 'Instagram', href: '/social' }, { label: 'Facebook', href: '/social-2' }] },
     { title: 'MORE', links: [{ label: 'More Content 1', href: '/more' }, { label: 'More Content 2', href: '/more-2' }] },
